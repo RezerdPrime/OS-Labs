@@ -1,0 +1,10 @@
+^C:\USERS\LENOVO\DESKTOP\CODESHIT\OPERACIONKI\BUILD\CMAKEFILES\62F345F1CCDB1FBEFCA3AFB6782C3DE5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lenovo/Desktop/CodeShit/operacionki -BC:/Users/Lenovo/Desktop/CodeShit/operacionki/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Lenovo/Desktop/CodeShit/operacionki/build/Main.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

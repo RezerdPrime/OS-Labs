@@ -1,0 +1,3 @@
+C:/Users/Lenovo/Desktop/CodeShit/operacionki/build/CMakeFiles/Main.dir
+C:/Users/Lenovo/Desktop/CodeShit/operacionki/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Lenovo/Desktop/CodeShit/operacionki/build/CMakeFiles/ZERO_CHECK.dir
